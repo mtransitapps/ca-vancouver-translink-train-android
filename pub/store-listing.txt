@@ -1,7 +1,7 @@
 Title: Vancouver TransLink SkyTrain …
 ----------
 Short description:
-Vancouver TransLink SkyTrains for MonTransit BETA.
+Vancouver TransLink SkyTrain for MonTransit BETA.
 Schedule. Alerts. News.
 ----------
 What's new in this version?:
