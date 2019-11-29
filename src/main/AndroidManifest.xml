@@ -81,7 +81,7 @@
             android:authorities="@string/gtfs_real_time_authority"
             android:exported="true"
             android:readPermission="org.mtransit.android.provider.permission.READ_PROVIDER"
-            tools:ignore="MissingRegistered" >
+            tools:ignore="MissingRegistered">
             <meta-data
                 android:name="@string/service_update_provider"
                 android:value="@string/service_update_provider" />
