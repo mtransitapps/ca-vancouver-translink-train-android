@@ -1,2 +1,2 @@
-Vancouver trains for MonTransit.
+Vancouver TransLink SkyTrain for MonTransit.
 Schedule. Alerts. News.
