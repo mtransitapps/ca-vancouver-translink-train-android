@@ -1,5 +1,5 @@
 {
-    "original_route_type_id": "1",
+    "original_route_type_id": 1,
     "original_route_type_id_comment": "classified as subway instead of light rail",
     "target_route_type_id": 0,
     "default_color": "0761A5",
