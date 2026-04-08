@@ -1,0 +1,79 @@
+{
+    "default_route_id_enabled": true,
+    "use_route_short_name_for_route_id": false,
+    "use_route_short_name_for_route_id_comment": "useful to match with GTFS real-time",
+    "route_to_short_name_configs": [
+        {
+            "route_id": "canada line",
+            "route_long_name": "Canada Line",
+            "route_short_name": "CAN"
+        },
+        {
+            "route_id": "millennium line",
+            "route_long_name": "Millennium Line",
+            "route_short_name": "MIL"
+        },
+        {
+            "route_id": "expo line",
+            "route_long_name": "Expo Line",
+            "route_short_name": "EXP"
+        }
+    ],
+    "default_route_long_name_enabled": true,
+    "route_long_name_cleaners": [
+        {
+            "regex": "skytrain",
+            "ignore_case": true,
+            "is_word": true
+        }
+    ],
+    "route_colors": [
+        {
+            "route_id": "canada line",
+            "route_long_name": "Canada Line",
+            "route_short_name": "CAN",
+            "color": "0098C9",
+            "comment": "(from PDF)"
+        },
+        {
+            "route_id": "millennium line",
+            "route_long_name": "Millennium Line",
+            "route_short_name": "MIL",
+            "color": "FDD005",
+            "comment": "(from PDF)"
+        },
+        {
+            "route_id": "expo line",
+            "route_long_name": "Expo Line",
+            "route_short_name": "EXP",
+            "color": "1D59AF",
+            "comment": "(from PDF)"
+        }
+    ],
+    "direction_finder_enabled": true,
+    "trip_headsign_cleaners": [
+        {
+            "regex": "(^\")",
+            "ignore_case": true
+        },
+        {
+            "regex": "(\";?$)",
+            "ignore_case": true
+        },
+        {
+            "regex": "((skytrain )?(- platform sign )?(\\w* line )?to )",
+            "ignore_case": true
+        },
+        {
+            "regex": "((^|\\W)(production way-university)(\\W|$))",
+            "ignore_case": true,
+            "replacement": "$2Prod Way–U$4"
+        }
+    ],
+    "stop_name_cleaners": [
+        {
+            "regex": "( station( \\w* line)?)",
+            "ignore_case": true
+        }
+    ]
+}

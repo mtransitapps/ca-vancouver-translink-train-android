@@ -1,0 +1,14 @@
+{
+    "original_route_type_id": 1,
+    "original_route_type_id_comment": "classified as subway instead of light rail",
+    "target_route_type_id": 0,
+    "default_color": "0761A5",
+    "default_color_comment": "BLUE (merge)",
+    "default_route_color_enabled": true,
+    "default_strings_cleaner_enabled": true,
+    "ignore_upper_case_words": [
+        "VCC",
+        "YVR"
+    ],
+    "service_id_clean_merged": true
+}

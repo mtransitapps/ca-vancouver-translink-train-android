@@ -1,22 +1,22 @@
-This app adds Vancouver SkyTrains information to MonTransit.
+This app adds Vancouver SkyTrain information to MonTransit.
 
-This app provides the trains schedule and news from www.translink.ca and @TransLink and @TransLinkMedia on Twitter.
+This app provides the trains schedule (accessible offline) and news from buzzer.translink.ca as well as @TransLinkNews on Twitter.
 
-These trains serves Vancouver, Burnaby, New Westminster, Richmond, Surrey in British Columbia, Canada.
+These trains serve Vancouver, Burnaby, New Westminster, Richmond, Surrey in British Columbia, Canada.
 
 Once this application is installed, the MonTransit app will display trains information (schedule...).
 
-This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link https://bit.ly/MonTransitPlay
+This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section below or by following this Google Play link https://bit.ly/MonTransitPlay
 
 You can install this application on the SD card but it is not recommended.
 
-The information comes from the GTFS file provided by TransLink.
-https://developer.translink.ca/ServicesGtfs/GtfsData
+The information comes from the data published by TransLink:
+https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources
 
 This application is free and open-source:
 https://github.com/mtransitapps/ca-vancouver-translink-train-android
 
-This app is not related with TransLink (South Coast British Columbia Transportation Authority) and BCRTC (British Columbia Rapid Transit Company).
+This app is not related with BCRTC (British Columbia Rapid Transit Company) or TransLink.
 
 Permissions:
-- Other: required to read news from www.translink.ca and Twitter
+- Other: required to download news

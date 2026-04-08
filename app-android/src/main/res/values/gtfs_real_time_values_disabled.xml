@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,UnusedResources">
+    <!-- 2026-04-08: not available for SkyTrain-->
+    <string name="gtfs_real_time_agency_service_alerts_url">https://gtfsapi.translink.ca/v3/gtfsalerts?apikey=%s</string>
+    <string name="gtfs_real_time_agency_vehicle_positions_url">https://gtfsapi.translink.ca/v3/gtfsposition?apikey=%s</string>
+    <string name="gtfs_real_time_agency_trip_updates_url">https://gtfsapi.translink.ca/v3/gtfsrealtime?apikey=%s</string>
+</resources>
