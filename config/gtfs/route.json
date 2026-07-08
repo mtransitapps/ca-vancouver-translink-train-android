@@ -51,6 +51,14 @@
         }
     ],
     "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [
+        {
+            "regex": "(EAST|WEST|NORTH|SOUTH)",
+            "ignore_case": true,
+            "is_word": true,
+            "comment": "ignore directions from 'directions.txt'"
+        }
+    ],
     "trip_headsign_cleaners": [
         {
             "regex": "(^\")",
